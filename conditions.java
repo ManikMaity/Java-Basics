@@ -59,6 +59,7 @@ public class conditions {
 
         System.out.println("Number: ");
         int number = scanner.nextInt(); // used to get input from user
+
         switch (number) {
             case 10:
                 System.out.println("Number is 10");
@@ -75,6 +76,16 @@ public class conditions {
         // Number:
         // 10
         // Number is 10
+
+        // Enhansed switch
+        System.out.println("Enter time:1");
+        int time = scanner.nextInt();
+        switch (time){
+            case 1 -> System.out.println("1");
+            case 2 -> System.out.println("2");
+            case 3 -> System.out.println("3");
+            default -> System.out.println("Not found");
+        }
 
     };
 
